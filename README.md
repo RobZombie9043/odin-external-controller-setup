@@ -80,4 +80,5 @@ In Tasker:
 - We then need to set up anotehr task to reverse the changes made to the config.ini file on controller disconnect:
   - Follow all the steps above to set up the Task but reverese the Search and Repalce With strings to return the controls to normal for Odin handheld play 
    
-
+Example Tasker Project file for compeleting the [Yuzu config ini changes](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Yuzu/Yuzu_ini.prj.xml)
+The BT address and Search and Replace With commands would need to be modified to suit other controllers and setup configurations. 
