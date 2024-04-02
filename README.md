@@ -2,9 +2,9 @@
 
 ---
 
-Work arounds to make the docking experience with the Odin2 more seamless (switch-like)
+Work arounds to make the docking experience with the Odin2 more seamless (switch-like).
 
-Some emulators can auto-detect controllers and configure inputs automatically (e.g. Retroarch, PPSSPP), some require some more work to setup.
+Some emulators can auto-detect controllers and configure inputs automatically (e.g. Retroarch, PPSSPP) but others require some more work to setup.
 
 ---
 
