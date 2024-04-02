@@ -52,8 +52,10 @@ Note these have been setup with the Odin2 using the xbox controller profile (fro
 
 ## Yuzu
 Yuzu does not allow binding of multiple controller inputs but does include a controller auto-mapping function but this requires you to go into the controls menu and auto-map the controller each time this is changed.
+
 An alternative work around is to set up Tasker to trigger on a controller connection event to run a task that edits the controller details in the config.ini file that Yuzu reads.
 Note this only works if Yuzu is not running as the config file is loaded on app start up.
+
 In Tasker:
 - In the Profiles screen -> Click the + button to add a profile
 - To set up the trigger for connection of bluetooth controller:
