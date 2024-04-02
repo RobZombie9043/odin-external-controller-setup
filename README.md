@@ -37,7 +37,7 @@ Dolphin allows you to bind multiple controllers inputs to the same profile simul
 - tap in the expression box to open keyboard and add a | (the vertical bar symbol acts as an OR operator in Dolphin)
 - select device again and choose the external controller
 - scroll down and select Button A again
-- rinse and repeat for all control bindings
+- rinse and repeat for all control bindings and a similar process can be followed for Wii input
 
 The expression box should then look something like this (dependent on your controller device names) when set up:
 'Android/1/Xbox Wireless Controller:Button A' | 'Android/3/DualSense Wireless Controller:Button A'
