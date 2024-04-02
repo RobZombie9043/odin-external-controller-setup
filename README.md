@@ -21,6 +21,7 @@ AetherSX2 allows you to bind multiple controllers inputs to the same profile sim
 
 Now controls should be working for Odin handheld play and for external controller.
 
+![AetherSX2](AetherSX2/AetherSX2-add-new.png)
 ---
 
 ## Dolphin
