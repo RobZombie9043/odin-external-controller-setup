@@ -1,10 +1,11 @@
-# odin-external-controller-setup
+# Odin 2 External Controller Setup
 
 ---
 
-Work arounds to make the docking experience with the Odin2 more seamless (switch-like).
+Work arounds to make the docking experience with the Odin2 more seamless (switch-like). 
+Similiar steps may work with other devices.
 
-Some emulators can auto-detect controllers and configure inputs automatically (e.g. Retroarch, PPSSPP) but others require some more work to setup.
+Some emulators can auto-detect controllers and configure inputs automatically (e.g. Retroarch, PPSSPP) but others require some more work to setup to achieve this.
 
 ---
 
