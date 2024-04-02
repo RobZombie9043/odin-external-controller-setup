@@ -107,16 +107,16 @@ The BT address and Search and Replace With commands would need to be modified to
 I normally have my Odin set to Xbox controller style in the Odin Settings menu.
 
 I swap this to Odin controller style when I connect a bluetooth controller:
-  On Odin 2 some controllers have the controller inputs (ABXY) reversed between the handheld and external controller. I.e. if the bottom button is pressed on the Odin this corresponds with the right button on the controller. 
-  Changing the 'Controller Style' settings in the Odin settings menu (i.e. changing between Odin and Xbox) reverses this on both the Odin and controller so they are still reversed.
-  To somewhat resolve this perculiarity, I use Tasker to automatically switch controller style between Xbox and Odin on BT connected trigger. 
-  This way on my setup, the confirm button is always the bottom button on the controller when used either on the Odin with BT not connected or on the BT controller when connected.
+- On Odin 2 some controllers have the controller inputs (ABXY) reversed between the handheld and external controller. I.e. if the bottom button is pressed on the Odin this corresponds with the right button on the controller. 
+- Changing the 'Controller Style' settings in the Odin settings menu (i.e. changing between Odin and Xbox) reverses this on both the Odin and controller so they are still reversed.
+- To somewhat resolve this perculiarity, I use Tasker to automatically switch controller style between Xbox and Odin on BT connected trigger. 
+- This way on my setup, the confirm button is always the bottom button on the controller when used either on the Odin with BT not connected or on the BT controller when connected.
 
 I switch to digital triggers for some emulators taht prefer them (e.g. yuzu). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
 
 On loading Yuzu I switch controller style to Odin (if handheld/on Odin) or to Xbox (if using controller) - Again this is configured to automatically swap with Tasker.
-  This change matches the switch controller layout for Yuzu.
-  The same could be achieved using the controller mappings but by switching the controller styles like this I can use the auto-map controller functionality and the buttons are assigned correctly otherwise the buttons would be reversed.
+- This change matches the switch controller layout for Yuzu.
+- The same could be achieved using the controller mappings but by switching the controller styles like this I can use the auto-map controller functionality and the buttons are assigned correctly otherwise the buttons would be reversed.
 
 Example Tasker project file used for all the above automations - [Tasker Controller project](Tasker/Controller.prj.xml)
 
