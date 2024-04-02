@@ -120,4 +120,4 @@ On loading Yuzu I switch controller style to Odin (if handheld/on Odin) or to Xb
 
 Example Tasker project file used for all the above automations - [Tasker Controller project](Tasker/Controller.prj.xml)
 
-Specifics would need to be modified to match otehr controllers and setup configurations.
+Specifics would need to be modified to match other controllers and setup configurations.
