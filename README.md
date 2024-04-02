@@ -22,6 +22,7 @@ AetherSX2 allows you to bind multiple controllers inputs to the same profile sim
 Now controls should be working for Odin handheld play and for external controller.
 
 ![AetherSX2](AetherSX2/AetherSX2-add-new.png)
+
 ---
 
 ## Dolphin
@@ -46,8 +47,11 @@ Example config files for [GameCube Controller](https://github.com/RobZombie9043/
 Note these have been setup with the Odin2 using the xbox controller profile (from Odin settings menu) and a DualSense controller using the odin controller profile (from Odin settings menu). Shared ini files as an example but these would need to be changed to suit other controllers and setup configurations. 
 
 ![Dolphin-Controller-1](Dolphin/Dolphin-GameCube-Controller-1.png)
+
 ![Dolphin-Configure-Input](Dolphin/Dolphin-GameCube-Configure-Input.png)
+
 ![Dolphin-Controller-Setup-Complete](Dolphin/Dolphin-GameCube-Controller-complete.png)
+
 ---
 
 ## Yuzu
@@ -84,3 +88,13 @@ In Tasker:
    
 Example Tasker Project file for compeleting the [Yuzu config ini changes](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Yuzu/Yuzu_ini.prj.xml)
 The BT address and Search and Replace With commands would need to be modified to suit other controllers and setup configurations. 
+
+![Tasker-Yuzu-1](Yuzu/1.png)
+
+![Tasker-Yuzu-2](Yuzu/2.png)
+
+![Tasker-Yuzu-3](Yuzu/3.png)
+
+![Tasker-Yuzu-4](Yuzu/4.png)
+
+![Tasker-Yuzu-5](Yuzu/5.png)
