@@ -118,4 +118,5 @@ On loading Yuzu I switch controller style to Odin (if handheld/on Odin) or to Xb
   This change matches the switch controller layout for Yuzu.
   The same could be achieved using the controller mappings but by switching the controller styles like this I can use the auto-map controller functionality and the buttons are assigned correctly otherwise the buttons would be reversed.
 
-
+Example Tasker project file used for all the above automations - [Tasker Controller project](Tasker/Controller.prj.xml)
+Specifics would need to be modified to match otehr controllers and setup configurations.
