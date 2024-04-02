@@ -42,5 +42,8 @@ Dolphin allows you to bind multiple controllers inputs to the same profile simul
 The expression box should then look something like this (dependent on your controller device names) when set up:
 'Android/1/Xbox Wireless Controller:Button A' | 'Android/3/DualSense Wireless Controller:Button A'
 
+![Dolphin-Controller-1](Dolphin/Dolphin-GameCube-Controller-1.png)
+![Dolphin-Configure-Input](Dolphin/Dolphin-GameCube-Configure-Input.png)
+![Dolphin-Controller-Setup-Complete](Dolphin/Dolphin-GameCube-Controller-complete.png)
 ---
 
