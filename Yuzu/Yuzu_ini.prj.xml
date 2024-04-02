@@ -1,0 +1,193 @@
+<TaskerData sr="" dvi="1" tv="6.2.22">
+	<Profile sr="prof18" ve="2">
+		<cdate>1712092488531</cdate>
+		<edate>1712078576297</edate>
+		<flags>8</flags>
+		<id>18</id>
+		<mid0>13</mid0>
+		<mid1>14</mid1>
+		<nme>BT Connected Yuzu Controller ini</nme>
+		<State sr="con0" ve="2">
+			<code>3</code>
+			<Str sr="arg0" ve="3">DualSense Wireless Controller</Str>
+			<Str sr="arg1" ve="3">E8:47:3A:2E:AC:F8</Str>
+		</State>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1703055933685</cdate>
+		<name>Yuzu ini</name>
+		<pids>18</pids>
+		<tids>13,14</tids>
+		<Share sr="Share">
+			<b>false</b>
+			<d>Change controller styles</d>
+			<g></g>
+			<p>false</p>
+			<t></t>
+		</Share>
+	</Project>
+	<Task sr="task13">
+		<cdate>1711154292393</cdate>
+		<edate>1712078576297</edate>
+		<id>13</id>
+		<nme>Edit Yuzu config ini for DualSense</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">guid:00000000000001120000000000002020</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">guid:00000000000001110000000000002020</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">port:0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">port:1</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">display:Odin Controller 0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">display:DualSense Wireless Controller 0</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>406</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Controller ini setup</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1711154292393</cdate>
+		<edate>1711237532705</edate>
+		<id>14</id>
+		<nme>Edit Yuzu config ini for Odin</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">guid:00000000000001110000000000002020</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">guid:00000000000001120000000000002020</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">port:1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">port:0</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">display:DualSense Wireless Controller 0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">display:Odin Controller 0</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>406</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Handheld ini setup</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
