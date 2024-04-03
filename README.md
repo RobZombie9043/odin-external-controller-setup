@@ -113,7 +113,7 @@ I swap this to Odin controller style when I connect a bluetooth controller:
 - To somewhat resolve this perculiarity, I use Tasker to automatically switch controller style between Xbox and Odin on BT connected trigger. 
 - This way on my setup, the confirm button is always the bottom button on the controller when used either on the Odin with BT not connected or on the BT controller when connected.
 
-I switch to digital triggers for some emulators taht prefer them (e.g. yuzu). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
+I switch to digital triggers for some emulators that prefer them (e.g. yuzu). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
 
 On loading Yuzu I switch controller style to Odin (if handheld/on Odin) or to Xbox (if using controller) - Again this is configured to automatically swap with Tasker.
 - This change matches the switch controller layout for Yuzu.
