@@ -105,6 +105,8 @@ The BT address and Search and Replace With commands would need to be modified to
 
 ## Other configurations I use (personal preference)
 
+I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. I.e. I uses a double press of the PS button mapped to the 'Android Back' command. In most standalone emulators this then opens the menu. 
+
 I normally have my Odin set to Xbox controller style in the Odin Settings menu.
 
 I swap this to Odin controller style when I connect a bluetooth controller:
