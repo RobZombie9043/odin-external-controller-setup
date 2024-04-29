@@ -9,8 +9,8 @@ Some emulators can auto-detect controllers and configure inputs automatically (e
 
 ---
 
-## AetherSX2/NetherSX2
-AetherSX2 allows you to bind multiple controllers inputs to the same profile simultaneously so no profile swapping is necessary once set up 
+## AetherSX2/NetherSX2/Duckstation
+A(N)etherSX2/Duckstation allows you to bind multiple controllers inputs to the same profile simultaneously so no profile swapping is necessary once set up 
 - go to Controller Settings
 - select Controller Port 1
 - set up the normal Odin controller bindings if not already done
@@ -61,6 +61,7 @@ Yuzu does not allow binding of multiple controller inputs but does include a con
 An alternative somewhat hacky work around to avoid having to auto-map the controller is to set up Tasker to trigger on a controller connection event to run a task that edits the controller details in the config.ini file that Yuzu reads.
 Note this only works if Yuzu is not running as the config file is loaded on app start up.
 I expect at some point this may cause issues with the config.ini file so it is probably a good idea to keep a backup of this but so far I have not run into any issues.
+This is probably not worth the effort vs automapping the controller but I will share the method for general interest.
 
 In Tasker:
 - In the Profiles screen -> Click the + button to add a profile
@@ -106,6 +107,15 @@ The BT address and Search and Replace With commands would need to be modified to
 ## Other configurations I use (personal preference)
 
 I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. I.e. I uses a double press of the PS button mapped to the 'Android Back' command. In most standalone emulators this then opens the menu. 
+
+### Android Key layout files
+In Android, most peripheral inputs, whether physical or virtual, are translated into actions defined by keymap, a small file that names the functions for each device input, including system inputs and gamepads or conventional keyboards. [1](https://medium.com/@ManoelFreitas/android-what-are-kl-files-and-how-to-use-them-to-map-a-gamepad-10201f30a3fb)
+On the Odin, if you have selected the Controller Style (Settings > Odin settings > Controller style) as either Odin or Xbox when connecting a BT controller then the key layout file that is used for the controller is an Odin specific one (Vendor_2020_Product_0ce6).
+If however the Controller style is first changed to disconnected and then you connect a controller it will use the correct controller key layout file for the controller (only tested with PS DualSense - Vendor_054c_Product_0ce6).
+Why is this important?
+- When connected with the correct key layout file, the ABXY (or cross, circle, triabgle, square) buttons work in the correct layout rather than being reversed. Subsequently changing the controller style does not affect the controller buttons, they continue to work correctly.
+- Vibration is supported for the controller when connected in this way
+
 
 I normally have my Odin set to Xbox controller style in the Odin Settings menu.
 
