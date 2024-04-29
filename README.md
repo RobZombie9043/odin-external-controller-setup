@@ -132,5 +132,5 @@ Specifics would need to be modified to match other controllers and setup configu
 I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. I.e. I uses a double press of the PS button mapped to the 'Android Back' command. In most standalone emulators this then opens the emulator menu. 
 
 I have also set up the back button on the Odin to work as a double tap to open recents menu and long press to clear all running tasks (thanks to Standard-Pepper-6510 on reddit).
-Open recents: Trigger - Double press back; Actions - Open recents
-Clear all running tasks: Trigger - Long press back; Actions - Open recents, wait 250ms, Tap coordinates 1140, 915
+- Open recents: Trigger - Double press back; Actions - Open recents
+- Clear all running tasks: Trigger - Long press back; Actions - Open recents, wait 250ms, Tap coordinates 1140, 915
