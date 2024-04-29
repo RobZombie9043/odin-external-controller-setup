@@ -129,7 +129,9 @@ Example Tasker project file used for all the above automations - [Tasker Control
 Specifics would need to be modified to match other controllers and setup configurations.
 
 ### Key Mapper
-I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. I.e. I uses a double press of the PS button mapped to the 'Android Back' command. In most standalone emulators this then opens the emulator menu. 
+I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. 
+
+I use a double press of the PS button mapped to the 'Android Back' command. In most standalone emulators this then opens the emulator menu. 
 - Go back: Trigger - Double press Button Mode (DualSense Wireless Controller); Actions - Go back
 
 I have also set up the back button on the Odin to work as a double tap to open recents menu and long press to clear all running tasks (thanks to Standard-Pepper-6510 on reddit).
