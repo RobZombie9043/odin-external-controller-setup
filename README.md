@@ -128,6 +128,8 @@ Example Tasker project file used for all the above automations - [Tasker Control
 
 Specifics would need to be modified to match other controllers and setup configurations.
 
+---
+
 ### Key Mapper
 I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. 
 
