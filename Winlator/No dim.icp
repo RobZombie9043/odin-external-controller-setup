@@ -1,0 +1,1 @@
+{"id":8,"name":"No dim","cursorSpeed":1,"elements":[{"type":"BUTTON","shape":"CIRCLE","bindings":["KEY_ALT_L","NONE","NONE","NONE"],"scale":0.1,"x":-0.09900990128517151,"y":1.097744345664978,"toggleSwitch":false,"text":"","iconId":0}]}
