@@ -7,6 +7,13 @@ Similiar steps may work with other devices.
 
 Some emulators can auto-detect controllers and configure inputs automatically (e.g. Retroarch, PPSSPP) but others require some more work to setup to achieve this.
 
+[AetherSX2/NetherSX2/Duckstation](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#aethersx2nethersx2duckstation)
+[Dolphin](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#dolphin)
+[Yuzu](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#yuzu)
+[Android key layout files](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#android-key-layout-files)
+[Key Mapper](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#key-mapper)
+[Winlator](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#winlator)
+
 ---
 
 ## AetherSX2/NetherSX2/Duckstation
