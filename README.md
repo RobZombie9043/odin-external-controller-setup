@@ -106,8 +106,6 @@ The BT address and Search and Replace With commands would need to be modified to
 
 ## Other configurations I use (personal preference)
 
-I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. I.e. I uses a double press of the PS button mapped to the 'Android Back' command. In most standalone emulators this then opens the menu. 
-
 ### Android Key layout files
 In Android, most peripheral inputs, whether physical or virtual, are translated into actions defined by keymap, a small file that names the functions for each device input, including system inputs and gamepads or conventional keyboards. [1](https://medium.com/@ManoelFreitas/android-what-are-kl-files-and-how-to-use-them-to-map-a-gamepad-10201f30a3fb)
 On the Odin, if you have selected the Controller Style (Settings > Odin settings > Controller style) as either Odin or Xbox when connecting a BT controller then the key layout file that is used for the controller is an Odin specific one (Vendor_2020_Product_0ce6).
@@ -116,21 +114,20 @@ Why is this important?
 - When connected with the correct key layout file, the ABXY (or cross, circle, triabgle, square) buttons work in the correct layout rather than being reversed. Subsequently changing the controller style does not affect the controller buttons, they continue to work correctly.
 - Vibration is supported for the controller when connected in this way
 
+![vendor_2020.webp](Other/vendor_2020.webp)
+![vendor_054c.webp](Other/vendor_054c.webp)
 
-I normally have my Odin set to Xbox controller style in the Odin Settings menu.
+I use Tasker to automate this process by setting up an event that triggers on BT connection of my controller and then changes Controller Style to disconnect.
 
-I swap this to Odin controller style when I connect a bluetooth controller:
-- On Odin 2 some controllers have the controller inputs (ABXY) reversed between the handheld and external controller. I.e. if the bottom button is pressed on the Odin this corresponds with the right button on the controller. 
-- Changing the 'Controller Style' settings in the Odin settings menu (i.e. changing between Odin and Xbox) reverses this on both the Odin and controller so they are still reversed.
-- To somewhat resolve this perculiarity, I use Tasker to automatically switch controller style between Xbox and Odin on BT connected trigger. 
-- This way on my setup, the confirm button is always the bottom button on the controller when used either on the Odin with BT not connected or on the BT controller when connected.
-
-I switch to digital triggers for some emulators that prefer them (e.g. yuzu). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
-
-On loading Yuzu I switch controller style to Odin (if handheld/on Odin) or to Xbox (if using controller) - Again this is configured to automatically swap with Tasker.
-- This change matches the switch controller layout for Yuzu.
-- The same could be achieved using the controller mappings but by switching the controller styles like this I can use the auto-map controller functionality and the buttons are assigned correctly otherwise the buttons would be reversed.
+I switch to digital triggers for some emulators that prefer them (e.g. yuzu/winlator). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
 
 Example Tasker project file used for all the above automations - [Tasker Controller project](Tasker/Controller.prj.xml)
 
 Specifics would need to be modified to match other controllers and setup configurations.
+
+### Key Mapper
+I use [Key Mapper](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper&hl=en&gl=US) to map shortcuts to my controller. I.e. I uses a double press of the PS button mapped to the 'Android Back' command. In most standalone emulators this then opens the emulator menu. 
+
+I have also set up the back button on the Odin to work as a double tap to open recents menu and long press to clear all running tasks (thanks to Standard-Pepper-6510 on reddit).
+Open recents: Trigger - Double press back; Actions - Open recents
+Clear all running tasks: Trigger - Long press back; Actions - Open recents, wait 250ms, Tap coordinates 1140, 915
