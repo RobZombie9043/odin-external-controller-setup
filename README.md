@@ -117,8 +117,8 @@ Why is this important?
 - When connected with the correct key layout file, the ABXY (or cross, circle, triangle, square) buttons work in the correct layout rather than being reversed. Subsequently changing the controller style does not affect the controller buttons, they continue to work correctly.
 - Vibration is supported for the controller when connected in this way
 
-![vendor_2020.webp](Other/vendor_2020.webp)
-![vendor_054c.webp](Other/vendor_054c.webp)
+![vendor_2020.webp](Other/vendor_2020.jpg)
+![vendor_054c.webp](Other/vendor_054c.jpg)
 
 I use Tasker to automate this process by setting up an event that triggers on BT connection of my controller and then changes Controller Style to disconnect.
 
