@@ -108,8 +108,11 @@ The BT address and Search and Replace With commands would need to be modified to
 
 ### Android Key layout files
 In Android, most peripheral inputs, whether physical or virtual, are translated into actions defined by keymap, a small file that names the functions for each device input, including system inputs and gamepads or conventional keyboards. [1](https://medium.com/@ManoelFreitas/android-what-are-kl-files-and-how-to-use-them-to-map-a-gamepad-10201f30a3fb)
+
 On the Odin, if you have selected the Controller Style (Settings > Odin settings > Controller style) as either Odin or Xbox when connecting a BT controller then the key layout file that is used for the controller is an Odin specific one (Vendor_2020_Product_0ce6).
+
 If however the Controller style is first changed to disconnected and then you connect a controller it will use the correct controller key layout file for the controller (only tested with PS DualSense - Vendor_054c_Product_0ce6).
+
 Why is this important?
 - When connected with the correct key layout file, the ABXY (or cross, circle, triabgle, square) buttons work in the correct layout rather than being reversed. Subsequently changing the controller style does not affect the controller buttons, they continue to work correctly.
 - Vibration is supported for the controller when connected in this way
