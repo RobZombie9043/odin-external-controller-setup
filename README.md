@@ -145,7 +145,7 @@ I have also set up the back button on the Odin to work as a double tap to open r
 This is not really controller related but Winlator 6.1 seems to have a couple of issues that require some workarounds.
 
 ### Screen dimming
-When using control inputs in game it causes the screen to dim. A workaround to resolve this is to create an input profile that has an onscreen button (any, doesn't matter) then the screen no longer dims for some reason. The onscreen overlay can be hidden in the menu but I have instead created a [controller profile](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Winlator/No%20dim.icp) which has the onscreen button positioned off the screen so it can't be seen and doesn't require the overlay to be disabled each time you load up a game.
+When using control inputs in game it causes the screen to dim. A workaround to resolve this is to create an input profile that has an onscreen button (any, doesn't matter) then the screen no longer dims for some reason. The onscreen overlay can be hidden in the menu but I have instead created a [controller profile](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Winlator/No%20dim.icp) which has the onscreen button positioned off the screen so it can't be seen and doesn't require the overlay to be disabled each time you load up a game. This can be imported from the Input Controls menu.
 
 ### Triggers not working
 Triggers need to be set to Digital mode on the Odin to work in Winlator - anlogue does not seem to be functioning.
