@@ -104,8 +104,7 @@ The BT address and Search and Replace With commands would need to be modified to
 
 ---
 
-## Other configurations I use (personal preference)
-
+## Other configurations I use
 ### Android Key layout files
 In Android, most peripheral inputs, whether physical or virtual, are translated into actions defined by keymap, a small file that names the functions for each device input, including system inputs and gamepads or conventional keyboards. [1](https://medium.com/@ManoelFreitas/android-what-are-kl-files-and-how-to-use-them-to-map-a-gamepad-10201f30a3fb)
 
