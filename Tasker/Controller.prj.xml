@@ -1,0 +1,467 @@
+<TaskerData sr="" dvi="1" tv="6.2.22">
+	<Profile sr="prof34" ve="2">
+		<cdate>1711221474527</cdate>
+		<clp>true</clp>
+		<edate>1713982327815</edate>
+		<flags>8</flags>
+		<id>34</id>
+		<mid0>3</mid0>
+		<mid1>4</mid1>
+		<nme>Change To Odin Control</nme>
+		<App sr="con0" ve="2">
+			<cls0>org.yuzu.yuzu_emu.ui.main.MainActivity</cls0>
+			<cls1>org.sudachi.sudachi_emu.ui.main.MainActivity</cls1>
+			<flags>2</flags>
+			<label0>yuzu</label0>
+			<label1>sudachi</label1>
+			<pkg0>org.yuzu.yuzu_emu</pkg0>
+			<pkg1>org.sudachi.sudachi_emu.ea</pkg1>
+		</App>
+		<State sr="con1" ve="2">
+			<code>3</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3">DualSense Wireless Controller</Str>
+			<Str sr="arg1" ve="3">E8:47:3A:2E:AC:F8</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof7" ve="2">
+		<cdate>1710530606844</cdate>
+		<clp>true</clp>
+		<edate>1714132933802</edate>
+		<flags>8</flags>
+		<id>7</id>
+		<mid0>2</mid0>
+		<mid1>5</mid1>
+		<nme>Triggers Digital</nme>
+		<App sr="con0" ve="2">
+			<cls0>org.yuzu.yuzu_emu.ui.main.MainActivity</cls0>
+			<cls1>org.sudachi.sudachi_emu.ui.main.MainActivity</cls1>
+			<cls2>com.winlator.MainActivity</cls2>
+			<cls3>net.dinglisch.android.taskerm.Kid</cls3>
+			<cls4>net.dinglisch.android.taskerm.Kid</cls4>
+			<cls5>net.dinglisch.android.taskerm.Kid</cls5>
+			<flags>2</flags>
+			<label0>yuzu</label0>
+			<label1>sudachi</label1>
+			<label2>Winlator</label2>
+			<label3>Pico8</label3>
+			<label4>Trails</label4>
+			<label5>Fallout 3</label5>
+			<pkg0>org.yuzu.yuzu_emu</pkg0>
+			<pkg1>org.sudachi.sudachi_emu.ea</pkg1>
+			<pkg2>com.winlator</pkg2>
+			<pkg3>com.pico8</pkg3>
+			<pkg4>com.trailsintheskysc</pkg4>
+			<pkg5>com.fallout3</pkg5>
+		</App>
+	</Profile>
+	<Profile sr="prof8" ve="2">
+		<cdate>1710530745494</cdate>
+		<clp>true</clp>
+		<edate>1714327665323</edate>
+		<flags>8</flags>
+		<id>8</id>
+		<mid0>25</mid0>
+		<nme>BT Connected Odin Controller Profile</nme>
+		<State sr="con0" ve="2">
+			<code>3</code>
+			<Str sr="arg0" ve="3">DualSense Wireless Controller</Str>
+			<Str sr="arg1" ve="3">E8:47:3A:2E:AC:F8</Str>
+		</State>
+	</Profile>
+	<Profile sr="prof9" ve="2">
+		<cdate>1710530745494</cdate>
+		<clp>true</clp>
+		<edate>1713982364425</edate>
+		<flags>8</flags>
+		<id>9</id>
+		<limit>true</limit>
+		<mid0>13</mid0>
+		<mid1>14</mid1>
+		<nme>BT Connected Yuzu Controller ini</nme>
+		<State sr="con0" ve="2">
+			<code>3</code>
+			<Str sr="arg0" ve="3">DualSense Wireless Controller</Str>
+			<Str sr="arg1" ve="3">E8:47:3A:2E:AC:F8</Str>
+		</State>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1703055933685</cdate>
+		<name>Controller</name>
+		<pids>9,8,34,7</pids>
+		<tids>2,5,25,13,14,4,3</tids>
+		<Share sr="Share">
+			<b>false</b>
+			<d>Change controller styles</d>
+			<g></g>
+			<p>false</p>
+			<t></t>
+		</Share>
+		<Img sr="icon" ve="2">
+			<nme>hl_hardware_gamepad</nme>
+		</Img>
+	</Project>
+	<Task sr="task13">
+		<cdate>1711154292393</cdate>
+		<edate>1713351702427</edate>
+		<id>13</id>
+		<nme>Edit Yuzu config ini for DualSense</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">guid:00000000000001120000000000002020</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">guid:0000000000000ce6000000000000054c</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">port:0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">port:1</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">display:Odin Controller 0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">display:DualSense Wireless Controller 0</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>406</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Controller ini setup</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task14">
+		<cdate>1711154292393</cdate>
+		<edate>1713351729793</edate>
+		<id>14</id>
+		<nme>Edit Yuzu config ini for Odin</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">guid:0000000000000ce6000000000000054c</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">guid:00000000000001120000000000002020</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>598</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">port:1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">port:0</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">display:DualSense Wireless Controller 0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">display:Odin Controller 0</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>406</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Android/data/org.yuzu.yuzu_emu/files/config/config.ini</Str>
+			<Str sr="arg1" ve="3">%text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Handheld ini setup</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task2">
+		<cdate>1703599249540</cdate>
+		<edate>1714383512006</edate>
+		<id>2</id>
+		<nme>AnalogueOff</nme>
+		<Action sr="act0" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">trigger_input_mode</Str>
+			<Str sr="arg2" ve="3">1</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">L2/R2 Digital Mode</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1713348036689</cdate>
+		<edate>1714327279961</edate>
+		<id>25</id>
+		<nme>DisconnectedControllerStyle</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">flip_button_layout</Str>
+			<Str sr="arg2" ve="3">0</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">temp_abxy_layout_mode</Str>
+			<Str sr="arg2" ve="3">2</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">no_create_gamepad_button_layout</Str>
+			<Str sr="arg2" ve="3">1</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
+		<cdate>1703451834938</cdate>
+		<edate>1714420001173</edate>
+		<id>3</id>
+		<nme>OdinControllerStyle</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">flip_button_layout</Str>
+			<Str sr="arg2" ve="3">0</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">temp_abxy_layout_mode</Str>
+			<Str sr="arg2" ve="3">1</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">no_create_gamepad_button_layout</Str>
+			<Str sr="arg2" ve="3">0</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Odin Controller Style Activated</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task4">
+		<cdate>1703452227523</cdate>
+		<edate>1714327234507</edate>
+		<id>4</id>
+		<nme>XboxControllerStyle</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">flip_button_layout</Str>
+			<Str sr="arg2" ve="3">1</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">temp_abxy_layout_mode</Str>
+			<Str sr="arg2" ve="3">0</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">no_create_gamepad_button_layout</Str>
+			<Str sr="arg2" ve="3">0</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Xbox Controller Style Activated</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task5">
+		<cdate>1703599424366</cdate>
+		<edate>1714419995104</edate>
+		<id>5</id>
+		<nme>AnalogueOn</nme>
+		<Action sr="act0" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">trigger_input_mode</Str>
+			<Str sr="arg2" ve="3">2</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">L2/R2 Analogue Mode</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
