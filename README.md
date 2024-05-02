@@ -126,7 +126,7 @@ On the Odin, if you have selected the Controller Style (Settings > Odin settings
 If however the Controller style is first changed to disconnected and then you connect a controller it will use the correct controller key layout file for the controller (only tested with PS DualSense - Vendor_054c and Xbox wireless controller - Vendor_045e).
 
 Why is this important?
-- When connected with the correct key layout file, the ABXY (or cross, circle, triangle, square) buttons work in the correct layout rather than being reversed. Subsequently changing the controller style does not affect the controller buttons, they continue to work correctly.
+- When connected with the correct key layout file, the ABXY (or cross, circle, triangle, square) buttons work in the correct layout rather than being reversed to the Odin buttons. Subsequently to connecting the controller, changing the controller style does not affect the controller button layouts anymore. This mean the controller style can be changed to Xbox and the button layouts on the Odin and the controller will match each other (i.e. the 'south' button on controller does the same thing if pressed on the controller or the Odin)  
 - For a Dualsense specifically, Vibration is supported for the controller when connected in this way and this can then be set up in any emulator that supports it.
 
 ![vendor_054c.webp](Other/vendor_054c.jpg)
