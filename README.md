@@ -11,6 +11,7 @@ Some emulators can auto-detect controllers and configure inputs automatically (e
 - [Dolphin](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#dolphin)
 - [Yuzu](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#yuzu)
 - [Android key layout files](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#android-key-layout-files)
+- [Tasker](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/README.md#tasker)
 - [Key Mapper](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#key-mapper)
 - [Winlator](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#winlator)
 
