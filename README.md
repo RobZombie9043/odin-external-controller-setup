@@ -51,7 +51,7 @@ Dolphin allows you to bind multiple controllers inputs to the same profile simul
 The expression box should then look something like this (dependent on your controller device names) when set up:
 'Android/1/Xbox Wireless Controller:Button A' | 'Android/3/DualSense Wireless Controller:Button A'
 
-Alternatively (and arguably easier). these configs can be edited in the profile ini files directly on a pc and then imported in to Dolphin.
+Alternatively (and arguably easier), these configs can be edited in the profile ini files directly on a pc and then imported in to Dolphin.
 
 Example config files for:
 - Dual Sense Controller: [GameCube Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/GameCube%20-%20Odin%20(xbox%20profile)%20and%20DualSense%20Controller.ini) and [Wii Classic Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/Wii%20Classic%20Controller%20-%20Odin%20(xbox%20profile)%20and%20DualSense%20Controller.ini)
@@ -131,13 +131,19 @@ Why is this important?
 ![vendor_054c.webp](Other/vendor_054c.jpg)
 ![vendor_2020.webp](Other/vendor_2020.jpg)
 
-I use Tasker to automate this process by setting up an event that triggers on BT connection of my controller and then changes Controller Style to disconnect.
+---
 
-I switch to digital triggers for some emulators that prefer them (e.g. yuzu/winlator). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
+### Tasker
+I use Tasker to automate the controller style switching process by setting up an event that triggers on BT connection of my controller and then changes the Controller Style to disconnect and once connected it changes back to Xbox style. This way the controller and Odin buttons both work and the button layouts match each other.
+
+I switch to analog or digital triggers for some emulators that prefer them set up that way (e.g. yuzu/winlator). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
 
 Example Tasker project file used for all the above automations - [Tasker Controller project](Tasker/Controller.prj.xml)
+Note that these Tasker profiles will require [TaskerSettings](https://github.com/joaomgcd/TaskerSettings/releases) installed to provide Tasker with the appropriate permissions to make changes to these system settings.
+It is also likely required to add Tasker to the Whitelist applications list to prevent the Tasker background process from getting killed (Android Settings > Odin Settings > Whitelist Applications).
+I have not seen any significant additional battery drain from keeping this running but YMMV.
 
-Specifics would need to be modified to match other controllers and setup configurations.
+Specifics of the Tasker profiles would need to be modified to match other controllers and setup configurations to suit preferences.
 
 ---
 
