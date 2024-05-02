@@ -123,7 +123,7 @@ In Android, most peripheral inputs, whether physical or virtual, are translated 
 
 On the Odin, if you have selected the Controller Style (Settings > Odin settings > Controller style) as either Odin or Xbox when connecting a BT controller then the key layout file that is used for the controller is an Odin specific one (Vendor_2020).
 
-If however the Controller style is first changed to disconnected and then you connect a controller it will use the correct controller key layout file for the controller (only tested with PS DualSense - Vendor_054c).
+If however the Controller style is first changed to disconnected and then you connect a controller it will use the correct controller key layout file for the controller (only tested with PS DualSense - Vendor_054c and Xbox wireless controller - Vendor_045e).
 
 Why is this important?
 - When connected with the correct key layout file, the ABXY (or cross, circle, triangle, square) buttons work in the correct layout rather than being reversed. Subsequently changing the controller style does not affect the controller buttons, they continue to work correctly.
