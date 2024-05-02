@@ -127,7 +127,7 @@ If however the Controller style is first changed to disconnected and then you co
 
 Why is this important?
 - When connected with the correct key layout file, the ABXY (or cross, circle, triangle, square) buttons work in the correct layout rather than being reversed. Subsequently changing the controller style does not affect the controller buttons, they continue to work correctly.
-- Vibration is supported for the controller when connected in this way
+- For a Dualsense specifically, Vibration is supported for the controller when connected in this way and this can then be set up in any emulator that supports it.
 
 ![vendor_054c.webp](Other/vendor_054c.jpg)
 ![vendor_2020.webp](Other/vendor_2020.jpg)
