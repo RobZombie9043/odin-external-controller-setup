@@ -51,8 +51,13 @@ Dolphin allows you to bind multiple controllers inputs to the same profile simul
 The expression box should then look something like this (dependent on your controller device names) when set up:
 'Android/1/Xbox Wireless Controller:Button A' | 'Android/3/DualSense Wireless Controller:Button A'
 
-Example config files for [GameCube Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/GameCube%20-%20Odin%20(xbox%20profile)%20and%20DualSense%20(Odin%20profile).ini) and [Wii Classic Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/Wii%20Classic%20Controller%20(Odin%20(xbox%20profile)%20and%20DualSense%20(Odin%20profile)).ini)
-Note these have been setup with the Odin2 using the xbox controller profile (from Odin settings menu) and a DualSense controller using the odin controller profile (from Odin settings menu). Shared ini files as an example but these would need to be changed to suit other controllers and setup configurations. 
+Alternatively and arguably easier these configs can be edited in the profile ini files on a pc and then imported in to Dolphin.
+
+Example config files for:
+- Dual Sense Controller: [GameCube Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/GameCube%20-%20Odin%20(xbox%20profile)%20and%20DualSense%20Controller.ini) and [Wii Classic Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/Wii%20Classic%20Controller%20-%20Odin%20(xbox%20profile)%20and%20DualSense%20Controller.ini)
+- Xbox Wireless Controller: [GameCube Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/GameCube%20-%20Odin%20(xbox%20profile)%20and%20Xbox%20Controller.ini) and [Wii Classic Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/Wii%20Classic%20Controller%20(Odin%20(xbox%20profile)%20and%20Xbox%20controller).ini)
+
+Shared ini files as an example but these would need to be changed to suit other controllers and setup configurations. 
 
 ![Dolphin-Controller-1](Dolphin/Dolphin-GameCube-Controller-1.png)
 
