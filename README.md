@@ -51,7 +51,7 @@ Dolphin allows you to bind multiple controllers inputs to the same profile simul
 The expression box should then look something like this (dependent on your controller device names) when set up:
 'Android/1/Xbox Wireless Controller:Button A' | 'Android/3/DualSense Wireless Controller:Button A'
 
-Alternatively and arguably easier these configs can be edited in the profile ini files on a pc and then imported in to Dolphin.
+Alternatively (and arguably easier). these configs can be edited in the profile ini files directly on a pc and then imported in to Dolphin.
 
 Example config files for:
 - Dual Sense Controller: [GameCube Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/GameCube%20-%20Odin%20(xbox%20profile)%20and%20DualSense%20Controller.ini) and [Wii Classic Controller](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Dolphin/Wii%20Classic%20Controller%20-%20Odin%20(xbox%20profile)%20and%20DualSense%20Controller.ini)
