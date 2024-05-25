@@ -136,7 +136,7 @@ Why is this important?
 ---
 
 ### OdinTools
-As of v1.3.0 of [OdinTools](https://github.com/langerhans/OdinTools), it can be setup to override controller style when connected to an external display. Ideally this should be set to controller style Disconnect and then controller is connected only once the device has been docked. This will allow the proper Android Key Layou file to be used as described above. 
+As of v1.3.0 of [OdinTools](https://github.com/langerhans/OdinTools), it can be setup to override controller style when connected to an external display. Ideally this should be set to controller style Disconnect and then external controller is connected only once the device has been docked. This will allow the proper Android Key Layou file to be used as described above. 
 
 ---
 
