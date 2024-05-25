@@ -11,6 +11,7 @@ Some emulators can auto-detect controllers and configure inputs automatically (e
 - [Dolphin](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#dolphin)
 - [Yuzu](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#yuzu)
 - [Android key layout files](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#android-key-layout-files)
+- [OdinTools](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/README.md#odintools)
 - [Tasker](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/README.md#tasker)
 - [Key Mapper](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#key-mapper)
 - [Winlator](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#winlator)
@@ -134,10 +135,15 @@ Why is this important?
 
 ---
 
-### Tasker
-I use Tasker to automate the controller style switching process by setting up an event that triggers on BT connection of my controller and then changes the Controller Style to disconnect and once connected it changes back to Xbox style. This way the controller and Odin buttons both work and the button layouts match each other.
+### OdinTools
+As of v1.3.0 of [OdinTools](https://github.com/langerhans/OdinTools), it can be setup to override controller style when connected to an external display. Ideally this should be set to controller style Disconnect and then controller is connected only once the device has been docked. This will allow the proper Android Key Layou file to be used as described above. 
 
-I switch to analog or digital triggers for some emulators that prefer them set up that way (e.g. yuzu/winlator). I do this with Tasker but this could also be done with [OdinTools](https://github.com/langerhans/OdinTools).
+---
+
+### Tasker
+An alternative to OdinTools would be to use Tasker to automate the controller style switching process by setting up an event that triggers on BT connection of my controller and then changes the Controller Style to disconnect and once connected it changes back to Xbox style. This way the controller and Odin buttons both work and the button layouts match each other.
+
+I switch to analog or digital triggers for some emulators that prefer them set up that way (e.g. yuzu/winlator).
 
 Example Tasker project file used for all the above automations - [Tasker Controller project](Tasker/Controller.prj.xml)
 Note that these Tasker profiles will require [TaskerSettings](https://github.com/joaomgcd/TaskerSettings/releases) installed to provide Tasker with the appropriate permissions to make changes to these system settings.
