@@ -9,7 +9,7 @@ Some emulators can auto-detect controllers and configure inputs automatically (e
 
 - [AetherSX2/NetherSX2/Duckstation](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#aethersx2nethersx2duckstation)
 - [Dolphin](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#dolphin)
-- [Yuzu](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#yuzu)
+- [Yuzu/Sudachi](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#yuzusudachi)
 - [Android key layout files](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#android-key-layout-files)
 - [OdinTools](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/README.md#odintools)
 - [Tasker](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/README.md#tasker)
