@@ -69,7 +69,7 @@ Shared ini files as an example but these would need to be changed to suit other 
 
 ---
 
-## Yuzu
+## Yuzu/Sudachi
 Yuzu does not allow binding of multiple controller inputs but does include a controller auto-mapping function but this requires you to go into the controls menu and auto-map the controller each time this is changed.
 
 An alternative somewhat hacky work around to avoid having to auto-map the controller is to set up Tasker to trigger on a controller connection event to run a task that edits the controller details in the config.ini file that Yuzu reads.
