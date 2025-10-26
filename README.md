@@ -14,7 +14,6 @@ Some emulators can auto-detect controllers and configure inputs automatically (e
 - [OdinTools](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/README.md#odintools)
 - [Tasker](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/README.md#tasker)
 - [Key Mapper](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#key-mapper)
-- [Winlator](https://github.com/RobZombie9043/odin-external-controller-setup?tab=readme-ov-file#winlator)
 
 ---
 
@@ -165,16 +164,3 @@ I have also set up the back button on the Odin to work as a double tap to open r
 - Clear all running tasks: Trigger - Long press back; Actions - Open recents, wait 250ms, Tap coordinates 1140, 915
 
 --- 
-
-## Winlator
-This is not really controller related but Winlator 6.1 seems to have a couple of issues that require some workarounds.
-
-### Screen dimming
-When using control inputs in game it causes the screen to dim. A workaround to resolve this is to create an input profile that has an onscreen button (any, doesn't matter) then the screen no longer dims for some reason. The onscreen overlay can be hidden in the menu but I have instead created a [controller profile](https://github.com/RobZombie9043/odin-external-controller-setup/blob/main/Winlator/No%20dim.icp) which has the onscreen button positioned off the screen so it can't be seen and doesn't require the overlay to be disabled each time you load up a game. This can be imported from the Input Controls menu.
-
-### Triggers not working
-Triggers need to be set to Digital mode on the Odin to work in Winlator - anlogue does not seem to be functioning.
-
-There is another issue where when holding down the trigger (L2 or R2) and touching one of the control sticks it stops the trigger from being registered. This is problematic for instance when you are trying to aim down sights in a game and move the view at the same time. The issue seems to be with how the xinput is reading the trigger event rather than with the trigger itself.
-
-A workaround is to swap the control mappings in game for another button that does not require to be held down. For example you could swap L1 with L2. You can then remap bindings in the Input Controls menu in Winlator to swap the actual buttons back (e.g. map L1 to L2 and L2 to L1). That way left trigger still completes the original left trigger action but is no longer interferred with by moving the sticks - i.e. you can aim down sight with left trigger and control the view with right stick simultaneously.   
